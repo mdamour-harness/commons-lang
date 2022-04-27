@@ -1,0 +1,8 @@
+out:
+
+in:
+  classes:
+  packages:
+    - org.apache
+
+strategy: override
