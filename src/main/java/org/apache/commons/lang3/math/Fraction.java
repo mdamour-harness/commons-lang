@@ -148,6 +148,9 @@ public final class Fraction extends Number implements Comparable<Fraction> {
             }
             numerator = -numerator;
             denominator = -denominator;
+        } else if (denominator > 0) {
+            // no op change test
+            System.out.println("denominator > 0");
         }
         return new Fraction(numerator, denominator);
     }
