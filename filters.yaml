@@ -1,8 +1,5 @@
-out:
-
-in:
-  classes:
-  packages:
-    - org.apache
+filter-type: user
+packages:
+  - org.apache
 
 strategy: override
